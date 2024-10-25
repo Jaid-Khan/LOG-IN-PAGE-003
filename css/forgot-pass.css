@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #003566;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 320px;
+  width: 90%;
+  height: 450px;
+  background-color: #ffc300;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 10px 6px 20px 4px black;
+}
+
+.container .car {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  filter: drop-shadow(4px 4px 4px #000000);
+}
+
+.container .car img {
+  width: 80px;
+}
+
+.container .hello h1 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin: 0 0 20px 0;
+}
+
+.email-here h3{
+  font-size: 0.875rem;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+input[type="email"] {
+  height: 25px;
+  width: 90%;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 5px;
+  margin: 10px;
+  filter: drop-shadow(4px 4px 4px #000000);
+}
+
+ input[type="email"]::placeholder {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+input[type="email"]:focus {
+  outline: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0 0 0;
+}
+
+.button input[type="submit"] {
+  padding: 4px 100px;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  filter: drop-shadow(4px 4px 4px #000000);
+}
+
+.button input[type="submit"]:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.sign-up {
+  font-size: 0.65rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0 0;
+}
+
+.sign-up a {
+  color: #000000;
+}
+
+.sign-up a:hover {
+  text-decoration: underline;
+}
